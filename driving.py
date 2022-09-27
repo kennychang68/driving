@@ -6,9 +6,11 @@ if country == 'taiwan':
 		print("you can go for driving exam")
 	else:
 		print("you still too young to have the exam")
-else if country == 'USA':
+elif country == 'USA':
 	if age >= 16:
 		print('you can go for driving exam')
 	else:
 		print('you still too young to have exam')
 
+else:
+	print('please only for taiwan or USA')
